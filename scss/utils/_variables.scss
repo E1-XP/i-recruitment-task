@@ -1,0 +1,24 @@
+// COLORS
+$color-primary: #f39222;
+$color-primary-alt: #f39323;
+$color-primary-alt2: #f3922294;
+
+$color-white: #ffffff;
+$color-gray: #999999;
+
+$color-dark: #231f20;
+$color-dark-alt: #3c3c3c;
+$color-dark-alt2: #00000026;
+
+//SHADOWS
+$box-shadow: 0px 0px 15px $color-dark-alt2;
+$box-shadow-alt: 0px 0px 15px $color-primary-alt2;
+
+//IMAGES
+
+// BREAKPOINTS
+$bp-very-large: 100em; // 1600px
+$bp-large: 85em; // 1360px
+$bp-medium: 64em; // 1024px;
+$bp-small: 48em; //768px;
+$bp-very-small: 30em; // 480px;
