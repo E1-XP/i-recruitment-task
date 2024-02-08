@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f76c20"/>
+      <stop offset="1" stop-color="#f39323"/>
+    </linearGradient>
+  </defs>
+  <g id="picture_as_pdf" transform="translate(-1043 -688)">
+    <text id="picture_as_pdf-2" data-name="picture_as_pdf" transform="translate(1062 726)" fill="#f39222" font-size="38" font-family="MaterialIcons-Regular, Material Icons"><tspan x="-19" y="0">picture_as_pdf</tspan></text>
+    <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M1065.191,706.184v-4.75h1.559v4.75Zm-15.883-8.684v22.191H1071.5v3.117h-22.191a3.169,3.169,0,0,1-3.117-3.117V697.5Zm7.941,5.566v-1.633h1.559v1.633Zm18.184-1.633v-2.375h-4.75v9.5h2.375v-3.117h2.375v-2.375h-2.375v-1.633Zm-6.309,4.75v-4.75a2.346,2.346,0,0,0-.668-1.67,2.248,2.248,0,0,0-1.707-.705h-3.934v9.5h3.934a2.248,2.248,0,0,0,1.707-.705A2.346,2.346,0,0,0,1069.125,706.184Zm-7.941-3.117v-1.633a2.408,2.408,0,0,0-2.375-2.375h-3.934v9.5h2.375v-3.117h1.559a2.408,2.408,0,0,0,2.375-2.375Zm13.508-11.875a3.169,3.169,0,0,1,3.117,3.117v19a3.118,3.118,0,0,1-.928,2.227,2.939,2.939,0,0,1-2.189.965h-19a3.3,3.3,0,0,1-3.191-3.191v-19a2.939,2.939,0,0,1,.965-2.189,3.118,3.118,0,0,1,2.227-.928Z" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

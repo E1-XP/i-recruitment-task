@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63.994" height="128.003" viewBox="0 0 63.994 128.003">
+  <g id="Inteligentny_obiekt_wektorowy" data-name="Inteligentny obiekt wektorowy" transform="translate(1.514)">
+    <g id="Payment_Receipt" data-name="Payment Receipt" transform="translate(-789.955 -707.125)">
+      <g id="Group_9" data-name="Group 9">
+        <rect id="Rectangle_12" data-name="Rectangle 12" width="60.966" height="94.606" rx="12.94" transform="translate(789.955 739.008)" fill="#fff" stroke="#231f20" stroke-width="3.028"/>
+        <rect id="Rectangle_13" data-name="Rectangle 13" width="15.742" height="41.899" rx="7.15" transform="matrix(0, 1, -1, 0, 841.387, 752.536)" fill="none" stroke="#231f20" stroke-width="3.028"/>
+        <g id="Group_7" data-name="Group 7">
+          <path id="Path_26" data-name="Path 26" d="M825.619,781.558a4.175,4.175,0,1,1-4.175-4.159A4.167,4.167,0,0,1,825.619,781.558Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+          <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="4.175" cy="4.159" rx="4.175" ry="4.159" transform="translate(833.631 777.399)" fill="none" stroke="#231f20" stroke-width="3.028"/>
+          <path id="Path_27" data-name="Path 27" d="M808.695,781.558a4.175,4.175,0,1,1-4.175-4.159A4.167,4.167,0,0,1,808.695,781.558Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+        </g>
+        <g id="Group_8" data-name="Group 8">
+          <path id="Path_28" data-name="Path 28" d="M825.619,795.163a4.175,4.175,0,1,1-4.175-4.158A4.167,4.167,0,0,1,825.619,795.163Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+          <path id="Path_29" data-name="Path 29" d="M841.98,795.163a4.175,4.175,0,1,1-4.174-4.158A4.167,4.167,0,0,1,841.98,795.163Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+          <path id="Path_30" data-name="Path 30" d="M808.695,795.163a4.175,4.175,0,1,1-4.175-4.158A4.167,4.167,0,0,1,808.695,795.163Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+        </g>
+        <rect id="Rectangle_14" data-name="Rectangle 14" width="32.862" height="12.896" transform="translate(804.152 737.493)" fill="#fff"/>
+        <path id="Path_31" data-name="Path 31" d="M834.557,709l-1.084-1.87L832.389,709l-1.084,1.87h-.027L830.194,709l-1.084-1.87L828.026,709l-.927,1.6-.926-1.6-1.084-1.87L824.005,709l-1.084,1.87L821.837,709l-1.084-1.87L819.669,709l-.927,1.6-.927-1.6-1.084-1.87L815.649,709l-1.084,1.87L813.481,709l-1.084-1.87L811.313,709l-.927,1.6-.927-1.6-1.084-1.87L807.292,709l-1.084,1.87v32.771h29.433V710.866Z" fill="#f39222"/>
+        <line id="Line_12" data-name="Line 12" x2="29.433" transform="translate(806.208 746.957)" fill="none" stroke="#fdd304" stroke-width="3.034"/>
+      </g>
+      <g id="Group_10" data-name="Group 10">
+        <path id="Path_32" data-name="Path 32" d="M825.9,808.77a4.175,4.175,0,1,1-4.175-4.159A4.167,4.167,0,0,1,825.9,808.77Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+        <path id="Path_33" data-name="Path 33" d="M842.261,808.77a4.175,4.175,0,1,1-4.174-4.159A4.167,4.167,0,0,1,842.261,808.77Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+        <path id="Path_34" data-name="Path 34" d="M808.976,808.77a4.175,4.175,0,1,1-4.175-4.159A4.167,4.167,0,0,1,808.976,808.77Z" fill="none" stroke="#231f20" stroke-width="3.028"/>
+      </g>
+      <g id="Group_11" data-name="Group 11">
+        <line id="Line_13" data-name="Line 13" x2="28.351" transform="translate(793.612 823.149)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="3.034"/>
+        <line id="Line_14" data-name="Line 14" x2="8.852" transform="translate(829.235 823.149)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="3.034"/>
+      </g>
+    </g>
+  </g>
+</svg>

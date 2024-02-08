@@ -14,7 +14,13 @@ $color-dark-alt2: #00000026;
 $box-shadow: 0px 0px 15px $color-dark-alt2;
 $box-shadow-alt: 0px 0px 15px $color-primary-alt2;
 
+//TRANSITIONS
+$card-transition: 0.25s all ease-in-out;
+
 //IMAGES
+
+//DIMENSIONS
+$max-container-width: 88.125rem; // 1410px
 
 // BREAKPOINTS
 $bp-very-large: 100em; // 1600px

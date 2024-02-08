@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150.307" height="91.308" viewBox="0 0 150.307 91.308">
+  <g id="Inteligentny_obiekt_wektorowy" data-name="Inteligentny obiekt wektorowy" transform="translate(1.341)">
+    <g id="Credit_Cards" data-name="Credit Cards" transform="translate(-161.382 -255.692)">
+      <g id="Group_6" data-name="Group 6">
+        <path id="Path_35" data-name="Path 35" d="M13.675,0H90.463a13.675,13.675,0,0,1,13.675,13.675V45.387A13.675,13.675,0,0,1,90.463,59.062H13.675A13.675,13.675,0,0,1,0,45.387V13.675A13.675,13.675,0,0,1,13.675,0Z" transform="matrix(0.959, 0.283, -0.283, 0.959, 210.472, 255.692)" fill="#f39222"/>
+        <rect id="Rectangle_10" data-name="Rectangle 10" width="104.134" height="59.064" rx="13.675" transform="translate(161.382 286.595)" fill="#fff" stroke="#231f20" stroke-width="2.682"/>
+        <rect id="Rectangle_11" data-name="Rectangle 11" width="101.083" height="12.457" transform="translate(162.866 300.272)" fill="#f39222"/>
+        <line id="Line_10" data-name="Line 10" x2="22.642" transform="translate(174.426 324.926)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="2.681"/>
+        <line id="Line_11" data-name="Line 11" x2="27.693" transform="translate(174.426 330.501)" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="2.681"/>
+      </g>
+      <path id="Path_24" data-name="Path 24" d="M281.8,322.312" fill="none" stroke="#231f20" stroke-width="2.681"/>
+      <path id="Path_25" data-name="Path 25" d="M288.4,285.2s16.546,2.09,9.231,16.2" fill="none" stroke="#231f20" stroke-linecap="round" stroke-width="2.682"/>
+    </g>
+  </g>
+</svg>
