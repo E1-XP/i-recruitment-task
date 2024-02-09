@@ -4,5 +4,15 @@
   text-transform: uppercase;
   border-radius: 10px;
   border: 3px solid $color-primary;
-  padding: 18px 22px;
+  height: 3.625rem;
+  padding: 0px 1.1875rem;
+  transition: $transition;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
 }

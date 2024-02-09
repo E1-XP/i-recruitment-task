@@ -16,6 +16,9 @@ body {
   font-weight: 300;
 
   &--small {
+    font-family: "Open Sans", sans-serif;
+    color: $color-gray;
+    font-weight: 300;
     font-size: 0.75rem;
   }
 }

@@ -1,12 +1,26 @@
 .card {
   box-shadow: $box-shadow;
   border-radius: 0.625rem;
-  transition: $card-transition;
+  transition: $transition;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  position: relative;
 
   &:hover {
     box-shadow: $box-shadow-alt;
+  }
+
+  &::after {
+    content: "";
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: $color-primary;
+    border-radius: 50%;
+    position: absolute;
+    right: -24px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   &__image {
@@ -14,10 +28,22 @@
   }
 
   &__title {
-    background-color: $color-dark-alt;
-    color: $color-white;
     font-size: 1.5rem;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+
+  &__title-inner {
+    color: $color-white;
+    background-color: $color-dark-alt;
+    padding: 0px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  &__paragraph {
+    margin-top: 1.75rem;
   }
 }

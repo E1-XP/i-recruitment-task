@@ -11,5 +11,35 @@
   &__cards {
     margin-top: 3.9375rem;
     margin-bottom: 3.6875rem;
+
+    & li:last-child .card::after {
+      content: none;
+    }
+  }
+
+  &-button {
+    padding-right: 0.625rem;
+
+    &__svg-wrapper {
+      border-left: 1px solid $color-primary-alt;
+      margin-left: 1.25rem;
+      padding-left: 0.875rem;
+      transition: $transition;
+    }
+
+    &:hover &__svg {
+      fill: $color-white;
+    }
+
+    &:hover &__svg-wrapper {
+      border-left: 1px solid $color-white;
+    }
+
+    &__svg {
+      fill: $color-primary;
+      transition: $transition;
+      width: 2.375rem;
+      height: 2.375rem;
+    }
   }
 }
