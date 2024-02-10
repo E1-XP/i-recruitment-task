@@ -43,3 +43,24 @@
     }
   }
 }
+
+.faq {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__image {
+    width: auto;
+    max-width: 51.375rem;
+  }
+
+  &__bg-shape {
+    background-color: $color-primary-alt;
+  }
+
+  &__bg-separator {
+    background-color: $color-dark;
+    height: 5.9375rem;
+    width: 100%;
+  }
+}
