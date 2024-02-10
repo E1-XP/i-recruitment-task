@@ -21,8 +21,8 @@ $transition: 0.25s all ease-in-out;
 $max-container-width: 88.125rem; // 1410px
 
 // BREAKPOINTS
-$bp-very-large: 100em; // 1600px
-$bp-large: 85em; // 1360px
-$bp-medium: 64em; // 1024px;
-$bp-small: 48em; //768px;
-$bp-very-small: 30em; // 480px;
+$bp-sm: 36em; // 576px
+$bp-md: 48em; // 768px
+$bp-lg: 62em; // 992px
+$bp-xl: 75em; // 1200px
+$bp-xxl: 85em; // 1360px

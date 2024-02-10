@@ -48,14 +48,55 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
+  margin-top: 5.4375rem;
+
+  &__container {
+    position: relative;
+    z-index: 99;
+    justify-content: space-between;
+  }
+
+  &__accordion {
+    margin-top: 7.5625rem;
+
+    @include bp($bp-md) {
+      width: 95%;
+    }
+    @include bp($bp-xxl) {
+      margin-bottom: 3.5rem;
+    }
+  }
 
   &__image {
     width: auto;
     max-width: 51.375rem;
+    margin-top: -6.875rem;
+
+    @include bp($bp-xxl) {
+      display: none;
+    }
   }
 
   &__bg-shape {
+    position: relative;
+  }
+
+  &__bg-shape::after {
+    content: "";
+    position: absolute;
     background-color: $color-primary-alt;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    top: 6%;
+    left: 0;
+    width: 100%;
+    height: 94%;
+
+    @include bp($bp-md) {
+      clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+      top: 10%;
+      height: 90%;
+    }
   }
 
   &__bg-separator {
