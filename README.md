@@ -7,6 +7,7 @@ Simple template moved from Adobe XD into responsive website.
 https://merry-sable-0d642c.netlify.app
 
 ## Tech Stack
+
 -HTML
 -SCSS
 -JavaScript
