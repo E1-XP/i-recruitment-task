@@ -1,12 +1,8 @@
-// html {
-//   @include bp($bp-large) {
-//     font-size: 87.5%; // 14px
-//   }
-
-//   @include bp($bp-medium) {
-//     font-size: 75%; // 12px
-//   }
-// }
+html {
+  @include bp($bp-md) {
+    font-size: 87.5%; // 14px
+  }
+}
 
 body {
   background-color: $color-white;

@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 4.125rem;
+  max-width: calc($max-container-width + 4.25rem);
 
   &__paragraph {
     margin-top: 0.75rem;
@@ -15,21 +16,63 @@
     margin-right: -2.125rem;
     margin-left: -2.125rem;
 
-    & > .col-xxl-3 {
+    & > li {
       padding-right: 2.125rem;
       padding-left: 2.125rem;
+
+      @include bp($bp-md) {
+        padding-right: 0px;
+        padding-left: 0px;
+      }
+
+      @include bp($bp-xxl) {
+        padding-top: 2.125rem;
+        padding-bottom: 2.125rem;
+
+        &:first-child,
+        &:nth-child(2) {
+          padding-top: 0px;
+        }
+
+        &:nth-child(3),
+        &:last-child {
+          padding-bottom: 0px;
+        }
+      }
+
+      @include bp($bp-md) {
+        &:nth-child(2) {
+          padding-top: 2.125rem;
+        }
+
+        &:nth-child(3) {
+          padding-bottom: 2.125rem;
+        }
+      }
     }
-
-    // & > .col-xxl-3:first-child {
-    //   padding-left: 0px;
-    // }
-
-    // & > .col-xxl-3:last-child {
-    //   padding-right: 0px;
-    // }
 
     & li:last-child .card::after {
       content: none;
+    }
+
+    & li:nth-child(2) .card::after {
+      @include bp($bp-xxl) {
+        top: initial;
+        left: 50%;
+        bottom: -44px;
+        transform: translateY(0%);
+        transform: translateX(-50%);
+      }
+    }
+
+    & li:first-child .card::before {
+      @include bp($bp-xxl) {
+        content: "";
+      }
+
+      @include bp($bp-md) {
+        content: none;
+      }
     }
 
     & li:nth-child(3) .card__title {
@@ -71,6 +114,10 @@
   text-align: center;
   margin-top: 5.4375rem;
 
+  &__heading {
+    margin: 0 $container-padding;
+  }
+
   &__container {
     position: relative;
     z-index: 99;
@@ -80,9 +127,6 @@
   &__accordion {
     margin-top: 7.5625rem;
 
-    @include bp($bp-md) {
-      width: 95%;
-    }
     @include bp($bp-xxl) {
       margin-bottom: 3.5rem;
     }

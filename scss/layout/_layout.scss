@@ -1,4 +1,8 @@
 .l-container {
   max-width: $max-container-width;
   margin: 0 auto;
+
+  @include bp($bp-xl) {
+    margin: 0 $container-padding;
+  }
 }
