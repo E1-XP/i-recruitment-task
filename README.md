@@ -8,10 +8,10 @@ https://merry-sable-0d642c.netlify.app
 
 ## Tech Stack
 
--HTML
--SCSS
--JavaScript
--Vite
+- HTML
+- SCSS
+- JavaScript
+- Vite
 
 ## Installation
 
