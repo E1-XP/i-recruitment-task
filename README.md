@@ -1,6 +1,6 @@
 # Impress Group Recruitment Task
 
-Simple template moved from Adobe XD template into responsive website.
+Simple template moved from Adobe XD into responsive website.
 
 ## Demo
 
