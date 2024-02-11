@@ -9,11 +9,31 @@
   }
 
   &__cards {
+    width: 100%;
     margin-top: 3.9375rem;
     margin-bottom: 3.6875rem;
+    margin-right: -2.125rem;
+    margin-left: -2.125rem;
+
+    & > .col-xxl-3 {
+      padding-right: 2.125rem;
+      padding-left: 2.125rem;
+    }
+
+    // & > .col-xxl-3:first-child {
+    //   padding-left: 0px;
+    // }
+
+    // & > .col-xxl-3:last-child {
+    //   padding-right: 0px;
+    // }
 
     & li:last-child .card::after {
       content: none;
+    }
+
+    & li:nth-child(3) .card__title {
+      padding: 0px 0.875rem;
     }
   }
 

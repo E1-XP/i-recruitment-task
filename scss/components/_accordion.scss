@@ -33,6 +33,10 @@
     width: 100%;
     position: relative;
     z-index: 99;
+
+    @include bp($bp-sm) {
+      column-gap: 0.625rem;
+    }
   }
 
   &__heading {

@@ -4,6 +4,7 @@
   transition: $transition;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
   position: relative;
 
@@ -18,9 +19,16 @@
     background-color: $color-primary;
     border-radius: 50%;
     position: absolute;
-    right: -24px;
+    right: -44px;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  &__image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11.625rem;
   }
 
   &__image {
@@ -33,18 +41,24 @@
     font-family: "Open Sans", sans-serif;
     line-height: 1.8rem;
     text-align: center;
+    padding: 0 1.875rem;
+    margin-top: auto;
   }
 
   &__title-inner {
     color: $color-white;
     background-color: $color-dark-alt;
-    padding: 0px;
+    padding: 0px 0.525rem;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+    line-height: 2.0625rem;
   }
 
   &__paragraph {
     margin-top: 1.75rem;
     text-align: center;
+    padding: 0px 1.875rem;
+    padding-bottom: 2.4375rem;
+    line-height: 0.9rem;
   }
 }

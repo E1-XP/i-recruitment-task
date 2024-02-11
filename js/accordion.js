@@ -1,13 +1,9 @@
-import "bootstrap/dist/css/bootstrap-reboot.min.css";
-import "bootstrap/dist/css/bootstrap-grid.min.css";
-import "./scss/main.scss";
-
 const ACCORDION_ID = "js-accordion";
 const ACCORDION_ITEM_CLASS = "accordion__item";
 const ACCORDION_BTN_CLASS = "accordion__header-btn";
 const ACCORDION_IS_OPEN_CLASS = "accordion__item--is-open";
 
-const processAccordionInteractions = () => {
+export const processAccordionInteractions = () => {
   const accordion = document.getElementById(ACCORDION_ID);
 
   const getOpenedItems = () => {
@@ -66,7 +62,3 @@ const processAccordionInteractions = () => {
   window.addEventListener("resize", setContentHeightInOpenedItems);
   accordion.querySelector(`.${ACCORDION_BTN_CLASS}`).click(); // open first element
 };
-
-const main = (() => {
-  processAccordionInteractions();
-})();
