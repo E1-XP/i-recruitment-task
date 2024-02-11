@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/mixins";
-
+// changed xxl breakpoint
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,

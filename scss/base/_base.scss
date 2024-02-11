@@ -1,7 +1,5 @@
 html {
-  @include bp($bp-md) {
-    font-size: 87.5%; // 14px
-  }
+  font-size: 100%; // 16px
 }
 
 body {
